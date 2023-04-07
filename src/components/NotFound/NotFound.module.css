@@ -1,0 +1,57 @@
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 230px;
+    margin: 0;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../img/bg.jpg) no-repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+.subheader {
+    font-family: montserrat, sans-serif;
+    color: #151f1e;;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #151f1e;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.NavLink {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5cf1e2;
+    border: 2px solid #5cf1e2;
+    cursor: pointer;
+
+} 
+.NavLink:hover {
+    background-color: #19dcc8;
+}
+.box {
+    position: fixed;
+    text-align: center;
+    top: 400px;
+    left: 25%;
+    
+}

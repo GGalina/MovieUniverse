@@ -1,0 +1,44 @@
+.trandingContainer {
+    padding: 22px 60px;
+}
+
+.tradingTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #151f1e;
+}
+
+.trandingList {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #151f1e;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    gap: 10px;
+    padding: 0px;
+}
+
+.trandingItem {
+    border: 2px solid #5cf1e2;
+    border-radius: 4px;
+    width: 700px;
+}
+
+.trandingItem:hover {
+    background: #5cf1e2;
+}
+
+.NavLink {
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+    color: #151f1e;;
+    width: 100%;
+    font-weight: bold;
+}
+
+.NavLink:hover {
+    color: white;
+}

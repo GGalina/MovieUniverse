@@ -1,0 +1,97 @@
+.mainContainer {
+    padding: 22px 60px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5cf1e2;
+    border: 2px solid #5cf1e2;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #19dcc8;
+}
+
+.imgWrap img{
+    max-height: 500px;
+    max-width: 350px;
+    padding-top: 22px;
+}
+
+.container {
+    display: flex;
+}
+
+.mainDetails {
+    padding: 22px 60px;
+}
+
+.movieTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 33px;
+    color: #151f1e;
+}
+
+.movieDescr {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #151f1e;
+    line-height: 32px;
+    margin: 0;
+}
+
+.movieSubTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #151f1e;
+}
+
+.moviewGenres {
+    display:flex;
+    gap: 12px;
+}
+
+.list {
+    text-decoration: none;
+    padding: 0 0 30px 0;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+hr {
+    border: 3px solid #19dcc8;
+    border-radius: 5px;
+}
+
+.addItem {
+    border: 2px solid #5cf1e2;
+    border-radius: 4px;
+    width: 320px;
+}
+        
+.addItem:hover {
+    background: #5cf1e2;
+}
+
+.Link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #151f1e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    width: 100%;
+    font-weight: bold;
+}
+    
+.Link:hover {
+    color: white;
+}

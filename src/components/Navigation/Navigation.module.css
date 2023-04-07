@@ -1,0 +1,31 @@
+.header {
+    padding: 8px 26px;
+    box-shadow: 2px 4px 26px #5ab5ac;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.link {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #151f1e;
+    font-weight: bold;
+    outline: 2px solid #5cf1e2;
+    cursor: pointer;
+}
+
+.active {
+    color: #fff;
+    background-color: #5cf1e2;
+    outline: 2px solid #5cf1e2;
+}

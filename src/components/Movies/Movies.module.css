@@ -1,0 +1,44 @@
+.searchTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #151f1e;
+    padding: 50px 0 0 60px;
+    margin: 0;
+}
+
+.searchList {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #151f1e;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    gap: 10px;
+    padding: 0px;
+    padding-left: 56px;
+}
+
+.searchItem {
+    border: 2px solid #5cf1e2;
+    border-radius: 4px;
+    width: 700px;
+}
+
+.searchItem:hover {
+    background: #5cf1e2;
+    color: #fff;
+}
+
+.searchLink {
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+    color: #151f1e;
+    width: 100%;
+    font-weight: bold;
+}
+
+.searchLink:hover {
+    color: white;
+}

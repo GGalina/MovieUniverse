@@ -1,0 +1,37 @@
+.container {
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.box {
+    box-shadow: 2px 4px 26px #5ab5ac;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    max-height: 250px;
+    padding-top: 22px;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #151f1e;
+    padding: 20px 0 10px 20px;
+}
+
+.character {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #151f1e;
+    line-height: 32px;
+    margin: 0;
+    padding: 10px 0 20px 20px;
+}
