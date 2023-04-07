@@ -32,6 +32,7 @@
     margin: 0;
     padding-bottom: 20px;
 }
+
 .NavLink {
     font-family: 'Roboto', sans-serif;
     padding: 12px 20px;
@@ -43,15 +44,15 @@
     background-color: #5cf1e2;
     border: 2px solid #5cf1e2;
     cursor: pointer;
-
 } 
+
 .NavLink:hover {
     background-color: #19dcc8;
 }
+
 .box {
     position: fixed;
     text-align: center;
     top: 400px;
     left: 25%;
-    
 }

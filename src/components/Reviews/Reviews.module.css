@@ -1,15 +1,18 @@
 .list {
     padding: 0;
 }
+
 .item {
     box-shadow: 2px 4px 26px #5ab5ac;
 }
+
 .author {
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
     color: #151f1e;
     padding: 20px 0 10px 20px;
 }
+
 .content {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
