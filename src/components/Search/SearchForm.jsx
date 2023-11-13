@@ -21,7 +21,7 @@ const SearchForm = () => {
         value={input}
         onChange={(event) => setInput(event.target.value)}
       />
-      <button className={s.button}type="submit">Submit</button>
+      <button className={s.searchBtn}type="submit">Submit</button>
     </form>
   );
 };

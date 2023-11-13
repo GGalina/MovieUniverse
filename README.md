@@ -1,113 +1,79 @@
-# React homework template
+# Movie Universe
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Welcome to the Movie Universe project! This web application allows users to search for movies, discover what is trending, and review information about the movies that interest them, such as cast members, description, release day, genre, and reviews. The project was developed using REACT, CSS, REST API, AXIOS, libraries: react-loader-spinner, react-slick, and Parcel as a build tool.
 
-## Создание репозитория по шаблону
+LivePages: [Movie Universe Live](https://ggalina.github.io/MovieUniverse/)
 
-Используй этот репозиторий организации GoIT как шаблон для создания репозитория
-своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
-`«Create a new repository»`, как показано на изображении.
+## Getting Started
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+To run the project on your local machine, follow these steps:
 
-На следующем шаге откроется страница создания нового репозитория. Заполни поле
-его имени, убедись что репозиторий публичный, после чего нажми кнопку
-`«Create repository from template»`.
+1. **Clone the Repository**:
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+   ```shell
+   git clone https://github.com/GGalina/MovieUniverse.git
 
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+2. **Navigate to the Project Directory**:
 
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
-опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
-необходимо для автоматизации процесса деплоя проекта.
+    ```bash
+    cd MovieUniverse
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+3. **Install Dependencies**:
+Make sure you have Node.js and npm installed.
 
-Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
-репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
-клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
-GitHub.
+    ```bash
+    npm install
+    
+4. **Start the Development Server**:
+To start the project, run the following command:
 
-## Подготовка к работе
+    ```bash
+    npm start
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Установи базовые зависимости проекта командой `npm install`.
-3. Запусти режим разработки, выполнив команду `npm start`.
-4. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+##Features
+**Trending Now**: List of movies that are trending; by clicking on a list item, users can review more detailed information about the movie.
 
-## Деплой
+**Movie Search**: Users can search for movies by name.
 
-Продакшн версия проекта будет автоматически проходить линтинг, собираться и
-деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
-ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
-необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
+**Home page**: Featuring the latest movie posters in a carousel.
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
+## Technologies Used
+**React**: Used for structuring the web pages and logic.
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+**CSS**: Used for styling the user interface.
 
-![GitHub Pages settings](./assets/repo-settings.png)
+**REST API**: Used to fetch movies and movie data from public API.
 
-### Статус деплоя
+**AXIOS**: Utilized for making asynchronous requests to the API.
 
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
+**React-loader-spinner**: Loader for while the request to the backend executes.
 
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
+**React-slick**: Library for a slider on the Home page.
 
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
+**Parcel**: Used as a build tool to bundle and compile the project.  
 
-![Deployment status](./assets/deploy-status.png)
 
-### Живая страница
+## Project Structure
 
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
+**index.html**: The main HTML file for the application.
 
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` в файле `package.json`.
+**src/**: This directory contains the source code for the project, including REACT, CSS, and other assets.
 
-### Маршрутизация
+**src/assets/img/**: Images used in the project.
 
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеш в начале строки обязателен.
+**src/components/**: Components folder for the application.
 
-```jsx
-<BrowserRouter basename="/your_repo_name">
-  <App />
-</BrowserRouter>
-```
 
-## Как это работает
+## Usage
+**View new releases**: New releases displayed in a carousel on the Home page.
 
-![How it works](./assets/how-it-works.png)
+**View Trending Now**: Click on the "Trending Now" button or the "Trending" tab in the header to review a list of trending films.
 
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит линтинг и сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+**Movie Details**: Click the list item of the interested movie to review detailed information.
+
+**Search for Movie**: Enter a movie name in the search bar in the Movies tab in the header of the application to find a specific movie.
+
+**Cast**: To view cast information, click on the "Cast" button within the Movie page.
+
+**Reviews**: To see reviews, click on the "Reviews" button within the Movie page.

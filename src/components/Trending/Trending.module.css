@@ -1,16 +1,14 @@
-.container {
-    padding: 50px;
+.trendingContainer {
+    padding: 22px 60px;
 }
 
-.searchTitle {
+.tredingTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
     color: #F7F9FB;
-    margin: 0;
-    padding-bottom: 20px;
 }
 
-.searchList {
+.trendingList {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #F7F9FB;
@@ -19,21 +17,22 @@
     flex-direction: column;
     max-width: 350px;
     gap: 10px;
+    padding: 0px;
 }
 
-.searchItem {
+.trendingItem {
     border: 2px solid #2F4454;
     border-radius: 4px;
     width: 700px;
     background-color: #2F4454;
 }
 
-.searchItem:hover {
+.trendingItem:hover {
     background: #2E151B;
     border: 2px solid #2E151B;
 }
 
-.searchLink {
+.NavLink {
     display: block;
     padding: 18px;
     text-decoration: none;

@@ -8,4 +8,9 @@ const HomeApi = async () => {
     return response.data;
 };
 
-export default HomeApi;
+const HeroApi = async () => {
+    const data = await axios.get(`/discover/movie?api_key=${API_KEY}`);
+    return data.data;
+};
+
+export { HomeApi, HeroApi };

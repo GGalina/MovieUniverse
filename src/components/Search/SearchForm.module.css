@@ -1,31 +1,42 @@
 .form {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     gap: 20px;
-    padding: 56px 60px 0 60px;
+    padding-top: 56px;
 }
 
 .input {
+    font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     outline: none;
-    border: 2px solid #5cf1e2;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    border: 2px solid #2E151B;
+    font-size: 18px;
+    padding-left: 10px;
 }
 
-.button {
+.input:focus {
+    border: 2px solid #DA7B93;
+}
+
+.input::placeholder {
+    font-size: 18px;
+}
+
+.searchBtn {
     font-family: 'Roboto', sans-serif;
-    padding: 12px 20px;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 600;
     text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #5cf1e2;
-    border: 2px solid #5cf1e2;
+    background-color: #2F4454;
+    color: #F7F9FB;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #2F4454;
     cursor: pointer;
 }
 
-.button:hover {
-    background-color: #19dcc8;
+.searchBtn:hover {
+    background-color: #DA7B93;
+    color: #F7F9FB;
 }

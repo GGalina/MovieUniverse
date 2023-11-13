@@ -1,44 +1,60 @@
-.trandingContainer {
-    padding: 22px 60px;
+.container {
+    padding: 40px;
+    background: url(../../assets/img/hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.tradingTitle {
+.heroText {
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    color: #151f1e;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 800;
+    color: #F7F9FB;
 }
 
-.trandingList {
+.heroActionCall {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #376E6F;
+}
+
+.trendingBtn {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #151f1e;
+    font-weight: 600;
     text-decoration: none;
+    background-color: #2F4454;
+    color: #F7F9FB;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trendingBtn:hover,
+.trendingBtn:focus {
+    background-color: #DA7B93;
+}
+
+.poster {
+   width: 100%;
+}
+
+.wrapper {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    max-width: 350px;
-    gap: 10px;
-    padding: 0px;
+    align-items: center;
 }
 
-.trandingItem {
-    border: 2px solid #5cf1e2;
-    border-radius: 4px;
-    width: 700px;
+.posterImg {
+    margin: 20px;
 }
 
-.trandingItem:hover {
-    background: #5cf1e2;
-}
-
-.NavLink {
-    display: block;
-    padding: 18px;
-    text-decoration: none;
-    color: #151f1e;;
-    width: 100%;
-    font-weight: bold;
-}
-
-.NavLink:hover {
-    color: white;
+.posterImg {
+    margin: 0;
 }

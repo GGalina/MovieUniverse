@@ -1,14 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
 .header {
     font-family: 'Roboto', sans-serif;
-    font-size: 230px;
+    font-size: 170px;
     margin: 0;
+    margin-bottom: 30px;
     font-weight: 900;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    background: url(../img/bg.jpg) no-repeat;
+    background: url(../../assets/img/bg.jpg) no-repeat;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
@@ -16,8 +20,8 @@
 }
 
 .subheader {
-    font-family: montserrat, sans-serif;
-    color: #151f1e;;
+    font-family: 'Roboto', sans-serif;
+    color: #F7F9FB;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -27,7 +31,7 @@
 .desc {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #151f1e;
+    color: #F7F9FB;
     line-height: 32px;
     margin: 0;
     padding-bottom: 20px;
@@ -35,24 +39,26 @@
 
 .NavLink {
     font-family: 'Roboto', sans-serif;
-    padding: 12px 20px;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 600;
     text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #5cf1e2;
-    border: 2px solid #5cf1e2;
+    background-color: #2F4454;
+    color: #F7F9FB;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
 } 
 
 .NavLink:hover {
-    background-color: #19dcc8;
+    background-color: #DA7B93;
+    color: #F7F9FB;
 }
 
 .box {
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
     text-align: center;
-    top: 400px;
-    left: 25%;
 }

@@ -8,10 +8,10 @@ const MovieDetailsApi = async (movieId, part) => {
     return response.data;
 };
 
-const ImagesAPI = async () => {
+const ImagesApi = async () => {
   const data = await axios.get(`/configuration?api_key=${API_KEY}`);
   return data.data;
 };
 
-export {MovieDetailsApi, ImagesAPI};
+export { MovieDetailsApi, ImagesApi };
 

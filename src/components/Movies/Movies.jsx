@@ -15,6 +15,7 @@ const Movies = () => {
     if (!keyword) {
       return;
     }
+
     const addMovies = async () => {
       try {
         const data = await SearchApi(keyword);
@@ -34,7 +35,7 @@ const Movies = () => {
     <>
       <SearchForm />
       {movies.length > 0 && 
-        <>
+        <div className={s.container}>
           <h2 className={s.searchTitle}>Search results</h2>
           <ul className={s.searchList}>
             {movies.map(({ title, id }) => (
@@ -45,7 +46,7 @@ const Movies = () => {
               </li>
             ))}
           </ul>
-        </>
+        </div>
       }
     </>
   );

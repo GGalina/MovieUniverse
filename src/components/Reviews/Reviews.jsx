@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import {MovieDetailsApi} from "../Services/moviesAPI";
-import {useParams} from 'react-router-dom';
+import { MovieDetailsApi } from "../Services/moviesAPI";
+import { useParams } from 'react-router-dom';
 import s from './Reviews.module.css'
 
 const Reviews = () => {
@@ -19,7 +19,8 @@ const Reviews = () => {
             }
         }
         reviewsDetails();
-    },[id]);
+    }, [id]);
+    
     return (
         <ul className={s.list}>
             {review && review.length > 0 ? review.map(({ author, content, id}) => (

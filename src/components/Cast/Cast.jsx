@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import {MovieDetailsApi, ImagesAPI} from "../Services/moviesAPI";
-import {useParams} from 'react-router-dom';
+import { MovieDetailsApi, ImagesApi } from "../Services/moviesAPI";
+import { useParams } from 'react-router-dom';
 import s from './Cast.module.css'
-import no_user from 'components/img/no_user.jpg'
+import no_user from '../../assets/img/no_user.jpg';
 
 const Cast = () => {
     const {id} = useParams();
@@ -20,14 +20,16 @@ const Cast = () => {
                 console.log(error.message);
             }
         };
+
         const getImage = async () => {
             try {
-                const dataImg = await ImagesAPI();
+                const dataImg = await ImagesApi();
                 setImage(dataImg.images);
             } catch (error) {
                 console.log(error.message);
             }
         };
+
         getImage();
         castDetails();
     }, [id]);
@@ -35,11 +37,13 @@ const Cast = () => {
     if (!cast) {
         return null;
     }
+
     if (!image) {
         return null;
     }
 
     const { base_url } = image;
+
     return (
         <div className={s.container}>
             {cast && cast.length > 0 ? cast.map(({ character, name, profile_path, credit_id }) => (

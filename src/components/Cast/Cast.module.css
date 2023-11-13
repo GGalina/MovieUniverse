@@ -7,7 +7,7 @@
 }
 
 .box {
-    box-shadow: 2px 4px 26px #5ab5ac;
+    box-shadow: 2px 4px 26px #376E6F;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -23,14 +23,14 @@
 .name {
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
-    color: #151f1e;
+    color: #376E6F;
     padding: 20px 0 10px 20px;
 }
 
 .character {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #151f1e;
+    color: #F7F9FB;
     line-height: 32px;
     margin: 0;
     padding: 10px 0 20px 20px;
