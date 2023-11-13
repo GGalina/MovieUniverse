@@ -31,7 +31,8 @@ To start the project, run the following command:
     ```bash
     npm start
 
-##Features
+
+## Features
 **Trending Now**: List of movies that are trending; by clicking on a list item, users can review more detailed information about the movie.
 
 **Movie Search**: Users can search for movies by name.
