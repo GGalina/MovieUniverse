@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieUniverse/static/css/main.4fb81fc0.css",
-    "main.js": "/MovieUniverse/static/js/main.8a28cc8d.js",
+    "main.js": "/MovieUniverse/static/js/main.83981f12.js",
     "static/css/662.1ffaa67e.chunk.css": "/MovieUniverse/static/css/662.1ffaa67e.chunk.css",
     "static/js/662.6b8ab7d6.chunk.js": "/MovieUniverse/static/js/662.6b8ab7d6.chunk.js",
     "static/css/350.4a3357bc.chunk.css": "/MovieUniverse/static/css/350.4a3357bc.chunk.css",
@@ -28,7 +28,7 @@
     "static/media/slick.woff": "/MovieUniverse/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MovieUniverse/index.html",
     "main.4fb81fc0.css.map": "/MovieUniverse/static/css/main.4fb81fc0.css.map",
-    "main.8a28cc8d.js.map": "/MovieUniverse/static/js/main.8a28cc8d.js.map",
+    "main.83981f12.js.map": "/MovieUniverse/static/js/main.83981f12.js.map",
     "662.1ffaa67e.chunk.css.map": "/MovieUniverse/static/css/662.1ffaa67e.chunk.css.map",
     "662.6b8ab7d6.chunk.js.map": "/MovieUniverse/static/js/662.6b8ab7d6.chunk.js.map",
     "350.4a3357bc.chunk.css.map": "/MovieUniverse/static/css/350.4a3357bc.chunk.css.map",
@@ -48,6 +48,6 @@
   },
   "entrypoints": [
     "static/css/main.4fb81fc0.css",
-    "static/js/main.8a28cc8d.js"
+    "static/js/main.83981f12.js"
   ]
 }
